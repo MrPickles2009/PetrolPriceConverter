@@ -1,0 +1,8 @@
+{
+  "name": "PetrolPriceConverter",
+  "app_id": "d6d1e1fe",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Petrol Price Converter</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card class="convertSelect">
+    <ion-card-content>
+      <ion-item>
+        <ion-label color="primary" floating>Click here to Enter Value</ion-label>
+        <ion-input [(ngModel)]="curInput" type="number" clearInput></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Convert from</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-select [(ngModel)]="convertFrom" (ionChange)="onChange1(convertFrom);curConvert();">
+          <ion-option value="0">€/l Euro per Litre</ion-option>
+          <ion-option value="1" checked="true">$/US Dollars per US liquid gallon</ion-option>
+          <ion-option value="2">£/l British Pounds per Litre</ion-option>
+          <ion-option value="3">£/20l Lebanese Pounds per 20 Litres</ion-option>
+          <ion-option value="4">$/l Australian Dollars per Litre</ion-option>
+          <ion-option value="5">$/l Mexican Pesos per Litre</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Convert to</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-select [(ngModel)]="convertTo" (ionChange)="onChange2(convertTo);curConvert();">
+          <ion-option value="0" checked="true">€/l Euro per Litre</ion-option>
+          <ion-option value="1">$/US Dollars per US liquid gallon</ion-option>
+          <ion-option value="2">£/l British Pounds per Litre</ion-option>
+          <ion-option value="3">£/20l Lebanese Pounds per 20 Litres</ion-option>
+          <ion-option value="4">$/l Australian Dollars per Litre</ion-option>
+          <ion-option value="5">$/l Mexican Pesos per Litre</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Output:</ion-label>
+        <ion-label id="curOutput"></ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

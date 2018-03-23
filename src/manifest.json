@@ -1,0 +1,13 @@
+{
+  "name": "Petrol Price Converter",
+  "short_name": "PPC",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#FFFFFF",
+  "theme_color": "#9c0600"
+}
