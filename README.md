@@ -44,4 +44,4 @@ npm install -g ionic cordova
 
 ## License
 
-[GPL](LICENSE.md)
+[GPL](LICENSE)
