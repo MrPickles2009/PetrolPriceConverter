@@ -10,7 +10,7 @@
 		<img src="https://img.shields.io/github/license/MrPickles2009/PetrolPriceConverter.svg" alt="license">
 	</a>
 	<a href="https://play.google.com/store/apps/details?id=com.brokencapodevelopment.ppc">
-		<img src="https://img.shields.io/badge/release-v1.0.0-blue.svg" alt="Play Store release">
+		<img src="https://img.shields.io/badge/release-v1.0.1-blue.svg" alt="Play Store release">
 	</a>
 </p>
 
