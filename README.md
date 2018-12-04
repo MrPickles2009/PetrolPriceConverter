@@ -14,7 +14,7 @@
 	</a>
 </p>
 
-A mobile app used to convert various petrol prices from around the world into relative terms. Built with [Ionic 3](https://ionicframework.com/) and [Angular 5](https://angular.io/), using [Open Exchange Rates](https://openexchangerates.org/) API for exchange rates.
+A mobile app used to convert various petrol prices from around the world into relative terms. Built with [Ionic 4](https://ionicframework.com/) and [Angular 5](https://angular.io/), using [Open Exchange Rates](https://openexchangerates.org/) API for exchange rates.
 
 <a href='https://play.google.com/store/apps/details?id=com.brokencapodevelopment.ppc&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
 
