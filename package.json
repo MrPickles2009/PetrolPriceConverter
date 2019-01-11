@@ -1,5 +1,5 @@
 {
-  "name": "PetrolPriceConverter",
+  "name": "Petrol Price Converter",
   "version": "1.0.3",
   "author": {
     "name": "Benjamin Gilliam",
@@ -38,7 +38,7 @@
     "cordova-plugin-advanced-http": "^1.11.1",
     "cordova-plugin-device": "^1.1.7",
     "cordova-plugin-file": "^6.0.1",
-    "cordova-plugin-ionic-webview": "^1.2.1",
+    "cordova-plugin-ionic-webview": "^3.0.0",
     "cordova-plugin-media": "^5.0.2",
     "cordova-plugin-splashscreen": "^4.1.0",
     "cordova-plugin-statusbar": "^2.4.2",
@@ -50,11 +50,11 @@
     "jquery": "^3.2.1",
     "rxjs": "5.5.2",
     "sw-toolbox": "3.6.0",
+    "typescript": "^3.2.1",
     "zone.js": "0.8.18"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "3.1.2",
-    "typescript": "2.4.2"
+    "@ionic/app-scripts": "3.1.2"
   },
   "description": "A mobile app used to convert various petrol prices from around the world into relative terms.",
   "cordova": {
@@ -63,11 +63,13 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-webview": {},
       "cordova-plugin-media": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-file": {},
-      "cordova-plugin-advanced-http": {}
+      "cordova-plugin-advanced-http": {},
+      "cordova-plugin-ionic-webview": {
+        "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
+      }
     },
     "platforms": [
       "android",
